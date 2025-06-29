@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>EduLift - Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>EduLifting</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+    </nav>
+  </header>
+  <section class="welcome">
+    <h2>Welcome to EduLifting</h2>
+    <p>Explore courses. Track progress. Learn anywhere.</p>
+  </section>
+
+<section class="course-list">
+  <h2>Available Courses</h2>
+  <div class="course">
+    <h3>Web Development</h3>
+    <p>HTML, CSS, JavaScript basics</p>
+    <a href="course-detail.html">View Course</a>
+  </div>
+  <div class="course">
+    <h3>React Essentials</h3>
+    <p>Build reactive UIs with React.js</p>
+    <a href="course-detail.html">View Course</a>
+  </div>
+</section>
+<section class="course-detail">
+  <h2>Web Development</h2>
+  <video width="100%" controls>
+    <source src="sample-video.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <div class="progress">
+    <label for="progressBar">Progress</label>
+    <progress id="progressBar" value="40" max="100">40%</progress>
+  </div>
+</section>
+
+</body>
+</html>
